@@ -1,0 +1,14 @@
+
+<div class="border-gray-left p-3">
+  <p> <%= @question %></p>
+  <p>-You</p>
+</div>
+<br>
+<div class="background-yellow border-gray-left p-3">
+  <p class="bold"><%= @answer %></p>
+  <p>-Your coach</p>
+</div>
+
+<div class="my-3">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
